@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "An easy approach to start building apps with Electron.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/main.js -w",
+    "start": "electron app"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,8 @@
   },
   "homepage": "https://github.com/henriquesosa/intro-ao-electron#readme",
   "devDependencies": {
-    "electron-prebuilt": "^0.36.2"
+    "chai": "^3.4.1",
+    "electron-prebuilt": "^0.36.2",
+    "mocha": "^2.3.4"
   }
 }
