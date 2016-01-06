@@ -1,6 +1,6 @@
 {
   "name": "electron-introduction",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "An easy approach to start building apps with Electron.js",
   "scripts": {
     "test": "mocha tests/main.js",
