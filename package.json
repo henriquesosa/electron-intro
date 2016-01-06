@@ -1,10 +1,11 @@
 {
   "name": "electron-introduction",
   "version": "1.4.0",
+  "main": "src/main.js",
   "description": "An easy approach to start building apps with Electron.js",
   "scripts": {
     "test": "mocha tests/main.js",
-    "start": "electron app",
+    "start": "electron .",
     "commit": "git-cz"
   },
   "repository": {
