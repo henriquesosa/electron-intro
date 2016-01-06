@@ -1,10 +1,11 @@
 {
   "name": "electron-introduction",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An easy approach to start building apps with Electron.js",
   "scripts": {
     "test": "mocha tests/main.js -w",
-    "start": "electron app"
+    "start": "electron app",
+    "commit": "git-cz"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,12 @@
   "homepage": "https://github.com/henriquesosa/intro-ao-electron#readme",
   "devDependencies": {
     "chai": "^3.4.1",
+    "commitizen": "^2.4.6",
+    "cz-conventional-changelog": "^1.1.5",
     "electron-prebuilt": "^0.36.2",
     "mocha": "^2.3.4"
+  },
+  "czConfig": {
+    "path" : "node_modules/cz-conventional-changelog"
   }
 }
