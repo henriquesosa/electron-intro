@@ -1,5 +1,21 @@
 {
-  "name"    : "olamundo",
-  "version" : "0.1.0",
-  "main"    : "main.js"
+  "name": "electron-introduction",
+  "version": "1.0.0",
+  "description": "An easy approach to start building apps with Electron.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriquesosa/intro-ao-electron.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "Henrique Sosa <henriquesosa@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henriquesosa/intro-ao-electron/issues"
+  },
+  "homepage": "https://github.com/henriquesosa/intro-ao-electron#readme"
 }
