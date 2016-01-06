@@ -1,6 +1,7 @@
 {
   "name": "electron-introduction",
   "version": "1.0.0",
+  "main"    : "main.js",
   "description": "An easy approach to start building apps with Electron.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
