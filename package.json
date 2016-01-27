@@ -1,6 +1,6 @@
 {
   "name": "electron-intro",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "src/main.js",
   "description": "An easy approach to start building apps with Electron.js",
   "scripts": {
