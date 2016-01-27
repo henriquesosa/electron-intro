@@ -16,7 +16,7 @@ I made this repo to a post that i wrote at [Tableless](http://tableless.com.br/i
 - [x] React
 - [x] Redux
 - [x] Babel
-- [ ] PostCSS
+- [x] PostCSS
 - [ ] Jest
 - [ ] Immutable
 - [ ] Electron Desktop
