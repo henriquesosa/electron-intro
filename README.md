@@ -16,10 +16,13 @@ I made this repo to a post that i wrote at [Tableless](http://tableless.com.br/i
 - [x] React
 - [x] Redux
 - [x] Babel
-- [ ] Sass
+- [ ] PostCSS
 - [ ] Jest
 - [ ] Immutable
+- [ ] Electron Desktop
+- [ ] Electron Builder
 - [x] TodoMVC example
+
 
 ## Installation
 

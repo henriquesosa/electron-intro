@@ -1,7 +1,7 @@
 const webpack                       = require('webpack'),
-	  path                          = require('path')
-	  webpackTargetElectronRenderer = require('webpack-target-electron-renderer');
-
+	  path                          = require('path'),
+	  webpackTargetElectronRenderer = require('webpack-target-electron-renderer'),
+	  rucksack                      = require('rucksack-css');
 
 const config = {
 	context: path.join(__dirname, "./src"),
@@ -31,20 +31,17 @@ const config = {
 			{
 				test: /\.(js|jsx)$/,
 				exclude: /node_modules/,
-				loaders: [
-					'react-hot',
-					'babel-loader'
-				]
-			},
-			{
-				test: /\.scss$/,
-				loaders: ["style", "css?sourceMap", "sass?sourceMap"]
+				loader: 'babel-loader',
+        		query: {
+        			presets: ['es2015', 'react']
+        		}
 			},
 			{
 				test: /\.css$/,
 				loaders: [
 					'style-loader',
-					'css-loader?modules&sourceMap&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'
+					'css-loader?modules&sourceMap&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
+					'postcss-loader'
 				]
 			},
 			{
@@ -53,19 +50,21 @@ const config = {
 			}
 		]
 	},
+	progress: true,
 	resolve: {
 		extensions: ['', '.js', '.jsx']
 	},
+	postcss: [
+		rucksack({
+			autoprefixer: true
+		})
+	],
 	plugins: [
 		new webpack.optimize.CommonsChunkPlugin('vendor', 'vendor.bundle.js'),
 		new webpack.DefinePlugin({
 			'process.env': { NODE_ENV: JSON.stringify(process.env.NODE_ENV || 'development') }
 		})
 	],
-	devServer: {
-		contentBase: './src',
-		hot: true
-	},
 	eslint: {
 		configFile: '.eslintrc'
 	}
