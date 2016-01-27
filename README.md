@@ -9,6 +9,18 @@ An easy approach to start building apps with Electron.js
 
 I made this repo to a post that i wrote at [Tableless](http://tableless.com.br/introducao-ao-electron/) talking about [Electron.js](http://electron.atom.io/).
 
+## Contains
+
+- [x] Electron.js
+- [ ] Webpack
+- [ ] React
+- [ ] Redux
+- [ ] Babel
+- [ ] Sass
+- [ ] Jest
+- [ ] Immutable
+- [ ] TodoMVC example
+
 ## Installation
 
 Just clone the repo:
@@ -24,6 +36,9 @@ To run an application:
 ```bash
 npm start
 ```
+
+## Build
+TO-DO
 
 ## License
 
