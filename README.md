@@ -12,14 +12,14 @@ I made this repo to a post that i wrote at [Tableless](http://tableless.com.br/i
 ## Contains
 
 - [x] Electron.js
-- [ ] Webpack
-- [ ] React
-- [ ] Redux
-- [ ] Babel
+- [x] Webpack
+- [x] React
+- [x] Redux
+- [x] Babel
 - [ ] Sass
 - [ ] Jest
 - [ ] Immutable
-- [ ] TodoMVC example
+- [x] TodoMVC example
 
 ## Installation
 

@@ -29,14 +29,14 @@ function getMainWindow() {
             resizable: true,
             'min-width': 800,
             'min-height': 600,
-            width: workAreaSize.width,
-            height: workAreaSize.height,
+            width: 800,
+            height: 600,
             show: true
     });
 	
-	mainWindow.loadURL('file://' + __dirname + '/index.html');
+	mainWindow.loadURL('file://' + __dirname + '/static/index.html');
 	
-	// mainWindow.openDevTools();
+	mainWindow.openDevTools();
 	
 	mainWindow.on('closed', function() {
 		

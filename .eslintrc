@@ -1,0 +1,24 @@
+{
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"ecmaFeatures": {
+		    "arrowFunctions": true,
+		    "blockBindings": true,
+		    "classes": true,
+		    "defaultParams": true,
+		    "destructuring": true,
+		    "jsx": true,
+		    "modules": true,
+		    "objectLiteralComputedProperties": true,
+		    "objectLiteralShorthandMethods": true,
+		    "objectLiteralShorthandProperties": true,
+		    "restParams": true,
+		    "spread": true,
+		    "superInFunctions": true,
+		    "templateStrings": true
+		}
+	},
+	"plugins": [
+		"react"
+	]
+}

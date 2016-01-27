@@ -1,10 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Hello World</title>
-</head>
-<body>
-	<h1>Hello World</h1>
-</body>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Todo App</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      var WebFontConfig = {
+        google: { families: [ 'Roboto:400,300,500:latin' ] }
+      };
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+          '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
+    </script>
+    <script src="./vendor.bundle.js"></script>
+    <script src="./bundle.js"></script>
+  </body>
 </html>
