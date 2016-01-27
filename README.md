@@ -37,7 +37,8 @@ git clone https://github.com/henriquesosa/electron-intro.git
 To run an application:
 
 ```bash
-npm start
+npm install
+npm run start
 ```
 
 ## Build
