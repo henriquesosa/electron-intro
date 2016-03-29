@@ -17,8 +17,7 @@ I made this repo to a post that i wrote at [Tableless](http://tableless.com.br/i
 - [x] Redux
 - [x] Babel
 - [x] PostCSS
-- [ ] Jest
-- [ ] Immutable
+- [x] Jest
 - [ ] Electron Desktop
 - [ ] Electron Builder
 - [x] TodoMVC example
@@ -30,6 +29,7 @@ Just clone the repo:
 
 ```bash
 git clone https://github.com/henriquesosa/electron-intro.git
+npm install
 ```
 
 ## Usage
@@ -37,9 +37,26 @@ git clone https://github.com/henriquesosa/electron-intro.git
 To run an application:
 
 ```bash
-npm install
 npm run start
 ```
+
+## Test
+
+To test the React components:
+
+```bash
+npm test
+```
+
+## Contribute
+
+I used a lib called [Commitizen](https://commitizen.github.io/cz-cli/) to maintain a organized repository. So if you want to contribute, please be sure to use:
+
+```bash
+npm run commit
+```
+
+to run make your commits.
 
 ## Build
 TO-DO
