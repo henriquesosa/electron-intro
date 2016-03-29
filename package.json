@@ -5,7 +5,7 @@
   "description": "An easy approach to start building apps with Electron.js",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watch",
+    "test-watch": "jest --watch",
     "start": "npm run build && electron .",
     "commit": "git-cz",
     "build": "webpack --verbose --colors --display-error-details --config webpack.config.js"

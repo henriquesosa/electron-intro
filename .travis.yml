@@ -9,8 +9,8 @@ branches:
 notifications:
   email: false
 node_js:
-  - iojs
+  - "5"
 before_install:
   - npm i -g npm@^3.3.12
 script:
-  - npm run test
+  - npm test
